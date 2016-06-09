@@ -76,7 +76,7 @@ require '/lib/AmazonECS.class.php';
 include "clusterdev.flipkart-api.php";
 
 //Replace <affiliate-id> and <access-token> with the correct values
-$flipkart = new \clusterdev\Flipkart("ananthakr", "8dc956763a5a45ffb62258125a2845c5", "json");
+$flipkart = new \clusterdev\Flipkart("<affiliate-id>", "<access-token>", "json");
 $query=$_POST["name"];
 
 
